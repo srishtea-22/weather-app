@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(/src/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    font-family: 'Poppins';
+    color: white;
+}
+
+.search-bar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+.search-bar {
+    background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 300px;
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 5px;
+}
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #e4e3ed;
+    font-family: inherit;
+}
+::placeholder {
+    color: #e4e3ed;
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.search-bar button svg {
+    width: 20px;
+}
