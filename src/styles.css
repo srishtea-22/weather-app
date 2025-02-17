@@ -50,3 +50,43 @@ body {
 .search-bar button svg {
     width: 20px;
 }
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    gap: 35rem;
+}
+.weather-container {
+    background: rgba(176, 172, 172, 0.2);
+    border-radius: 30px;
+    min-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.weather-container .location {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.weather-container .location h1, h2 {
+    margin: 0;
+}
+.weather-container .details div {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    h4 {
+        margin: 1rem;
+        word-spacing: 0.5rem;
+    }
+}
+.weather-container .description p {
+    margin: 0;
+    white-space: normal; 
+    word-wrap: break-word;
+    padding: 0 2rem;
+}
