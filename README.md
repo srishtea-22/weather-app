@@ -1,1 +1,2 @@
 # weather-app
+This weather page lets users search for a city's weather, fetching data from Visual Crossing for weather details and Giphy for a related GIF. It displays the weather information along with a relevant animation based on the conditions.
