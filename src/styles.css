@@ -56,7 +56,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10%;
-    gap: 35rem;
+    gap: 10rem;
 }
 .weather-container {
     background: rgba(176, 172, 172, 0.2);
@@ -89,4 +89,16 @@ body {
     white-space: normal; 
     word-wrap: break-word;
     padding: 0 2rem;
+}
+.gif-container {
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;  
+    position: relative; 
+}
+
+.gif-container img {
+    width: 100%;  
+    height: auto;  
+    display: block; 
 }
